@@ -1,0 +1,21 @@
+print("Welcome to the Best financial Calculator of Lakshay")
+
+print("+ for Addition")
+print("- for Substraction")
+print("* for multiplication")
+print("/ for Division")
+
+a=int(input("Enter the Number"))
+b=int(input("Enter the Second Number"))
+
+n= input("please choose a sign")
+if n=="+":
+    n= a+b 
+    print("Sum is",n) 
+elif n=="-":
+    n=a-b
+    print("Substraction is",n)
+  elif n=="*":
+    n=a*b 
+    print("Multiplication is",n)
+    
