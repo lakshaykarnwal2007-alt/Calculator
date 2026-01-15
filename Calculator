@@ -15,7 +15,15 @@ if n=="+":
 elif n=="-":
     n=a-b
     print("Substraction is",n)
-  elif n=="*":
+elif n=="*":
     n=a*b 
     print("Answer is",n)
-    
+elif n=="/":
+    if b!=0:
+        n=a/b 
+        print("Answer is",n)
+    else:
+        print("Divsion by Zero is not allowed")
+else:
+    print("Invalid Choice")
+
