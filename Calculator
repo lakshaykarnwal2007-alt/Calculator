@@ -27,8 +27,8 @@ while True:
             print("Divsion by Zero is not allowed")
     else:
         print("Invalid Choice")
-    again= input("Do you want to calculate again?, YES/NO:")
-    if again!="YES":
+    again= input("Do you want to calculate again?, y/n:")
+    if again!="y":
         print("Calculator Closed")
         break
         
