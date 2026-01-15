@@ -1,12 +1,13 @@
 while True:
     print("Welcome to the Best financial Calculator of Lakshay")
+    print("\nPress any of these signs for calculation:")
 
     print("+ for Addition")
     print("- for Substraction")
     print("* for multiplication")
     print("/ for Division")
 
-    a=int(input("Enter the Number"))
+    a=int(input("\n Enter the Number"))
     b=int(input("Enter the Second Number"))
 
     n= input("please choose a sign")
