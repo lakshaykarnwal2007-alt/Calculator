@@ -1,29 +1,36 @@
-print("Welcome to the Best financial Calculator of Lakshay")
+while True:
+    print("Welcome to the Best financial Calculator of Lakshay")
 
-print("+ for Addition")
-print("- for Substraction")
-print("* for multiplication")
-print("/ for Division")
+    print("+ for Addition")
+    print("- for Substraction")
+    print("* for multiplication")
+    print("/ for Division")
 
-a=int(input("Enter the Number"))
-b=int(input("Enter the Second Number"))
+    a=int(input("Enter the Number"))
+    b=int(input("Enter the Second Number"))
 
-n= input("please choose a sign")
-if n=="+":
-    n= a+b 
-    print("Sum is",n) 
-elif n=="-":
-    n=a-b
-    print("Substraction is",n)
-elif n=="*":
-    n=a*b 
-    print("Answer is",n)
-elif n=="/":
-    if b!=0:
-        n=a/b 
+    n= input("please choose a sign")
+    if n=="+":
+        n= a+b 
+        print("Sum is",n) 
+    elif n=="-":
+        n=a-b
+        print("Substraction is",n)
+    elif n=="*":
+        n=a*b 
         print("Answer is",n)
+    elif n=="/":
+        if b!=0:
+            n=a/b 
+            print("Answer is",n)
+        else:
+            print("Divsion by Zero is not allowed")
     else:
-        print("Divsion by Zero is not allowed")
-else:
-    print("Invalid Choice")
+        print("Invalid Choice")
+    again= input("Do you want to calculate again?, YES/NO:")
+    if again!="YES":
+        print("Calculator Closed")
+        break
+        
 
+    
