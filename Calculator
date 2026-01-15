@@ -17,5 +17,5 @@ elif n=="-":
     print("Substraction is",n)
   elif n=="*":
     n=a*b 
-    print("Multiplication is",n)
+    print("Answer is",n)
     
